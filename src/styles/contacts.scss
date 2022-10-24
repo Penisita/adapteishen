@@ -1,0 +1,46 @@
+.contacts {
+  padding: 90px 0;
+  text-align: center;
+}
+
+.contacts-title {
+  margin-bottom: 40px;
+}
+
+.contacts-content {
+  margin: 0 auto 40px;
+  font-size: 18px;
+}
+.contacts-button {
+  margin-bottom: 80px;
+}
+.button {
+  background: #070707;
+  display: inline-block;
+  padding: 7px 22px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 18px;
+  transition: background 0.2s ease-in, top 0.2s ease-in;
+  &:hover,
+  :focus {
+    background: #333333;
+  }
+  &:active {
+    position: relative;
+    top: 1px;
+    background: #000;
+  }
+}
+.contacts-social {
+  display: flex;
+  justify-content: center;
+  column-gap: 60px;
+  align-items: center;
+  margin-bottom: 40px;
+  
+}
+.contacts-footer {
+    color: rgba(130, 130, 130, 1);
+
+}
